@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>디지털 감정 소각장 - 직장·학업 분노 파쇄기</title>
+  <meta name="description" content="상사의 무리한 메일, 무임승차 조별과제, 카드값 청구서를 엄지 스와이프로 시원하게 갈아버리는 스트레스 해소 토이. 국과수 소각 감정서 발급">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2228289204702106" crossorigin="anonymous"></script>
+  <style>
+    html, body { max-width: 100%; overflow-x: hidden; }
+    .manual-ad-box { width: 100%; max-width: 960px; overflow: hidden; }
+    .manual-ad-box ins { max-width: 100% !important; overflow: hidden !important; }
+  </style>
+</head>
+<body class="bg-zinc-950 text-zinc-100 font-sans min-h-screen flex flex-col justify-between">
+  <header class="border-b border-zinc-800 bg-zinc-900/80 backdrop-blur sticky top-0 z-30">
+    <div class="max-w-xl mx-auto px-4 py-3 flex items-center justify-between">
+      <div class="flex items-center gap-2">
+        <span class="text-xl">🔥</span>
+        <h1 class="text-sm font-bold text-rose-500">디지털 감정 소각장 (Anger Shredder)</h1>
+      </div>
+      <a href="guides/guide.html" class="text-xs bg-zinc-800 hover:bg-zinc-700 text-zinc-300 px-2.5 py-1 rounded-lg border border-zinc-700">
+        가이드
+      </a>
+    </div>
+  </header>
+
+  <div class="manual-ad-box mx-auto my-1 px-4">
+    <ins class="adsbygoogle"
+         style="display:block; height: 60px; max-height: 60px;"
+         data-ad-client="ca-pub-2228289204702106"
+         data-ad-slot="3824727725"
+         data-ad-format="horizontal"
+         data-full-width-responsive="true"></ins>
+    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+  </div>
+
+  <main class="max-w-xl mx-auto px-4 py-4 w-full flex-grow flex flex-col justify-center text-center">
+    <div class="bg-zinc-900 border border-zinc-800 rounded-3xl p-6 shadow-2xl relative">
+      
+      <p class="text-xs font-bold text-rose-500 uppercase tracking-widest mb-1">STRESS DIGITAL INCINERATOR</p>
+      <h2 class="text-2xl font-black text-white mb-2">분노 서류 완전 파쇄 & 소각</h2>
+      <p class="text-xs text-zinc-400 mb-5">파쇄할 서류를 선택하고 [분쇄 개시]를 누르세요</p>
+
+      <!-- Preset Chips -->
+      <div class="grid grid-cols-2 gap-2 mb-5">
+        <button class="chip-btn px-3 py-2 bg-zinc-800 hover:bg-zinc-700 text-xs font-bold rounded-xl border border-zinc-700 text-zinc-200 active:border-rose-500 transition" data-title="금일 17:59분 긴급 업무 메일">
+          📩 17:59분 긴급 메일
+        </button>
+        <button class="chip-btn px-3 py-2 bg-zinc-800 hover:bg-zinc-700 text-xs font-bold rounded-xl border border-zinc-700 text-zinc-200 active:border-rose-500 transition" data-title="조별과제 잠수탄 팀원 카톡">
+          👻 조별과제 잠수 팀원
+        </button>
+        <button class="chip-btn px-3 py-2 bg-zinc-800 hover:bg-zinc-700 text-xs font-bold rounded-xl border border-zinc-700 text-zinc-200 active:border-rose-500 transition" data-title="통장 스쳐 지나간 카드값 청구서">
+          💸 스쳐간 카드값 고지서
+        </button>
+        <button class="chip-btn px-3 py-2 bg-zinc-800 hover:bg-zinc-700 text-xs font-bold rounded-xl border border-zinc-700 text-zinc-200 active:border-rose-500 transition" data-title="끝없는 무한 기획서 수정 지시">
+          🔄 무한 기획서 수정 지시
+        </button>
+      </div>
+
+      <!-- Shredder Paper View -->
+      <div class="bg-zinc-950 p-6 rounded-2xl border-2 border-zinc-800 relative overflow-hidden my-3">
+        <div id="paper-doc" class="bg-white text-zinc-900 p-4 rounded-xl shadow-lg font-mono text-left transition-all duration-300">
+          <p class="text-[10px] text-zinc-400 border-b pb-1 font-bold">TOP SECRET / 분노 대상 문서</p>
+          <p class="text-sm font-black text-rose-600 my-2" id="target-doc-title">금일 17:59분 긴급 업무 메일</p>
+          <p class="text-[11px] text-zinc-500">"내일까지 완벽하게 다 정리해 두세요. 별거 아니죠?"</p>
+        </div>
+        <div id="shredding-anim" class="hidden text-rose-500 font-black text-lg py-6 animate-pulse">
+          ⚡ 지지직... 칼날 분쇄 중... ⚡
+        </div>
+      </div>
+
+      <div class="my-4">
+        <button id="shred-btn" class="w-full bg-rose-600 hover:bg-rose-500 text-white font-black py-4 px-6 rounded-2xl text-base shadow-lg shadow-rose-600/20 transition flex items-center justify-center gap-2">
+          <span>⚙️</span> <span id="shred-text">파쇄기에 넣고 갈아버리기</span>
+        </button>
+      </div>
+
+      <!-- Certificate Card -->
+      <div id="cert-card" class="mt-5 bg-zinc-950 border-2 border-rose-900/60 rounded-2xl p-5 text-left font-mono hidden shadow-xl">
+        <div class="flex justify-between items-center border-b border-zinc-800 pb-2 mb-3">
+          <span class="text-xs font-bold text-rose-500">✓ 국립과학수사연구원 규격 패러디</span>
+          <span class="text-[10px] text-zinc-500">완전 소각 증명서</span>
+        </div>
+        <div class="space-y-1.5 text-xs text-zinc-300">
+          <p>• 소각 대상: <span id="c-title" class="text-white font-bold">17:59분 긴급 업무 메일</span></p>
+          <p>• 소각된 분노 질량: <span class="font-bold text-rose-400">4.8kg (재 0.0g 잔류)</span></p>
+          <p>• 생체 회복 지표: <span class="text-emerald-400 font-bold">솟구쳤던 혈압 18mmHg 정상화</span></p>
+          <p class="pt-2 text-zinc-400 text-[11px] border-t border-zinc-800">
+            [보증] 본 분노는 대기 중으로 기화되었으며 어떠한 미련도 남지 않았음을 증명함. [인감 날인 쾅]
+          </p>
+        </div>
+        <div class="mt-4 flex gap-2">
+          <button id="copy-btn" class="flex-1 bg-rose-600 hover:bg-rose-500 text-white font-bold py-2.5 px-3 rounded-xl text-xs transition">
+            📋 소각 완료 카피 복사
+          </button>
+          <button id="reset-btn" class="px-3 py-2.5 bg-zinc-800 text-zinc-300 text-xs rounded-xl font-bold">
+            다른 서류 소각
+          </button>
+        </div>
+      </div>
+
+    </div>
+
+    <section class="mt-6 bg-zinc-900 border border-zinc-800 rounded-2xl p-5 text-xs text-zinc-400 text-left">
+      <h3 class="font-bold text-zinc-200 text-sm mb-2">디지털 감정 소각장 FAQ</h3>
+      <details class="group cursor-pointer">
+        <summary class="font-semibold text-zinc-300 list-none flex justify-between py-1">
+          <span>Q. 모터 회전음 사운드는 어떻게 구현되었나요?</span>
+          <span class="text-zinc-500 group-open:rotate-180 transition">▼</span>
+        </summary>
+        <p class="mt-1.5 text-zinc-400 leading-relaxed">
+          브라우저 내장 Web Audio API의 톱니파(Sawtooth)와 저역통과 필터(LPF)를 조합하여 실제 사무용 파쇄기의 모터 마찰음을 실시간 합성합니다.
+        </p>
+      </details>
+    </section>
+  </main>
+
+  <div class="manual-ad-box mx-auto my-2 px-4">
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-client="ca-pub-2228289204702106"
+         data-ad-slot="3416334507"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+  </div>
+
+  <div id="toast" class="fixed bottom-6 left-1/2 transform -translate-x-1/2 bg-white text-zinc-900 font-bold text-xs px-5 py-2.5 rounded-full shadow-2xl transition-opacity duration-300 opacity-0 pointer-events-none z-50">
+    소각 증명 카피가 복사되었습니다!
+  </div>
+
+  <footer class="border-t border-zinc-900 py-4 text-center text-xs text-zinc-600">
+    © 2026 Anger Shredder. All rights reserved.
+  </footer>
+
+  <script>
+    let audioCtx = null;
+    function playShredSound() {
+      try {
+        if (!audioCtx) audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+        if (audioCtx.state === 'suspended') audioCtx.resume();
+        const osc = audioCtx.createOscillator();
+        const gain = audioCtx.createGain();
+        osc.type = 'sawtooth';
+        osc.frequency.setValueAtTime(80, audioCtx.currentTime);
+        osc.frequency.linearRampToValueAtTime(140, audioCtx.currentTime + 3.0);
+        gain.gain.setValueAtTime(0.12, audioCtx.currentTime);
+        gain.gain.exponentialRampToValueAtTime(0.001, audioCtx.currentTime + 3.5);
+        osc.connect(gain);
+        gain.connect(audioCtx.destination);
+        osc.start();
+        osc.stop(audioCtx.currentTime + 3.5);
+      } catch (e) {}
+    }
+
+    const docEl = document.getElementById('paper-doc');
+    const shredAnim = document.getElementById('shredding-anim');
+    const shredBtn = document.getElementById('shred-btn');
+    const shredText = document.getElementById('shred-text');
+    const certCard = document.getElementById('cert-card');
+    const targetTitle = document.getElementById('target-doc-title');
+    const cTitle = document.getElementById('c-title');
+
+    // Chip select
+    document.querySelectorAll('.chip-btn').forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        const title = e.currentTarget.dataset.title;
+        targetTitle.textContent = title;
+        docEl.classList.remove('hidden');
+        certCard.classList.add('hidden');
+      });
+    });
+
+    shredBtn.addEventListener('click', () => {
+      shredBtn.classList.add('opacity-50', 'pointer-events-none');
+      shredText.textContent = '파쇄 및 소각 진행 중 (15s)...';
+      docEl.classList.add('scale-y-0', 'opacity-0');
+      shredAnim.classList.remove('hidden');
+      playShredSound();
+
+      if (navigator.vibrate) navigator.vibrate([30, 20, 30, 20, 50]);
+
+      // 15 seconds dwell time lock-in
+      setTimeout(() => {
+        shredAnim.classList.add('hidden');
+        cTitle.textContent = targetTitle.textContent;
+        certCard.classList.remove('hidden');
+        shredText.textContent = '소각 완료';
+        shredBtn.classList.remove('opacity-50', 'pointer-events-none');
+        if (navigator.vibrate) navigator.vibrate([100, 50, 100]);
+      }, 15000);
+    });
+
+    document.getElementById('reset-btn').addEventListener('click', () => {
+      docEl.classList.remove('scale-y-0', 'opacity-0');
+      certCard.classList.add('hidden');
+      shredText.textContent = '파쇄기에 넣고 갈아버리기';
+    });
+
+    document.getElementById('copy-btn').addEventListener('click', () => {
+      const doc = cTitle.textContent;
+      const url = window.location.href;
+      const text = `방금 [${doc}] 4.8kg 파쇄기에 넣고 가루로 만들었습니다.\n세상아 덤벼라, 내 스트레스는 기화되었다.\n👉 디지털 감정 소각장: ${url}`;
+      if (navigator.clipboard) navigator.clipboard.writeText(text);
+      const toast = document.getElementById('toast');
+      toast.style.opacity = '1';
+      setTimeout(() => { toast.style.opacity = '0'; }, 2200);
+    });
+  </script>
+</body>
+</html>
