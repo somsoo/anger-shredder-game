@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://anger-shredder-game.enjoy-onepage.com/sitemap.xml
