@@ -1,32 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
-  <title>분노 소각 파쇄기: 스트레스 &amp; 억울한 감정 텍스트 분쇄</title>
+  <title>분노 소각 파쇄기 | 화나는 일을 적고 가상 파쇄기로 버리기</title>
   <link>https://anger-shredder-game.enjoy-onepage.com/</link>
-  <description>상사 스트레스, 답답한 감정을 텍스트로 적고 즉각 분쇄·소각하는 카타르시스 웹앱: 100% 로컬 메모리 처리로 흔적 없는 완벽한 비밀 보장을 제공합니다.</description>
+  <description>화나거나 억울한 일을 적고 가상 파쇄기에 넣어 긴 조각이나 색종이 조각으로 잘라 버립니다. 쓴 글은 저장하지도 보내지도 않습니다. 무료, 가입 없음.</description>
   <language>ko-kr</language>
   <atom:link href="https://anger-shredder-game.enjoy-onepage.com/rss.xml" rel="self" type="application/rss+xml" />
-  <lastBuildDate>Tue, 29 Sep 2026 06:01:24 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 30 Sep 2026 03:25:02 +0000</lastBuildDate>
   <item>
-    <title>이용약관 - 분노 소각 파쇄기: 스트레스 &amp; 억울한 감정 텍스트 분쇄</title>
+    <title>이용약관 | 분노 소각 파쇄기</title>
     <link>https://anger-shredder-game.enjoy-onepage.com/terms.html</link>
     <guid isPermaLink="true">https://anger-shredder-game.enjoy-onepage.com/terms.html</guid>
-    <description>분노 소각 파쇄기: 스트레스 &amp; 억울한 감정 텍스트 분쇄의 서비스 이용약관입니다. 면책 조항 및 서비스 이용 기준을 안내합니다.</description>
-    <pubDate>Mon, 21 Sep 2026 23:09:20 +0900</pubDate>
+    <description>분노 소각 파쇄기의 이용약관입니다.</description>
+    <pubDate>Wed, 30 Sep 2026 03:25:02 +0000</pubDate>
   </item>
   <item>
-    <title>개인정보처리방침 - 분노 소각 파쇄기: 스트레스 &amp; 억울한 감정 텍스트 분쇄</title>
+    <title>개인정보처리방침 | 분노 소각 파쇄기</title>
     <link>https://anger-shredder-game.enjoy-onepage.com/privacy.html</link>
     <guid isPermaLink="true">https://anger-shredder-game.enjoy-onepage.com/privacy.html</guid>
-    <description>분노 소각 파쇄기: 스트레스 &amp; 억울한 감정 텍스트 분쇄의 개인정보처리방침입니다. 본 도구는 사용자 데이터를 서버로 전송하지 않습니다.</description>
-    <pubDate>Mon, 21 Sep 2026 23:09:20 +0900</pubDate>
-  </item>
-  <item>
-    <title>직장 내 분노와 스트레스 해소를 위한 인지 파쇄 카타르시스 가이드</title>
-    <link>https://anger-shredder-game.enjoy-onepage.com/guides/guide.html</link>
-    <guid isPermaLink="true">https://anger-shredder-game.enjoy-onepage.com/guides/guide.html</guid>
-    <description>상사 스트레스, 불합리한 피드백, 억울한 감정을 텍스트로 적고 즉각 분쇄·소각하는 카타르시스 심리학 기법과 감정 쓰레기통의 뇌 과학적 원리를 정밀 안내합니다.</description>
-    <pubDate>Mon, 21 Sep 2026 22:49:49 +0900</pubDate>
+    <description>분노 소각 파쇄기의 개인정보처리방침입니다.</description>
+    <pubDate>Wed, 30 Sep 2026 03:25:02 +0000</pubDate>
   </item>
 </channel>
 </rss>

@@ -1,463 +1,468 @@
 <!DOCTYPE html>
-
 <html lang="ko">
 <head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>분노 소각 파쇄기: 스트레스 &amp; 억울한 감정 텍스트 분쇄</title>
-<meta content="상사 스트레스나 답답한 감정을 글로 적고 바로 파쇄·소각하는 웹앱. 입력한 내용은 저장되지 않고 흔적 없이 사라집니다." name="description"/>
-<link href="https://anger-shredder-game.enjoy-onepage.com/" rel="canonical"/>
-<!-- OpenGraph -->
-<meta content="website" property="og:type"/>
-<meta content="분노 소각 파쇄기: 스트레스 &amp; 억울한 감정 텍스트 분쇄" property="og:title"/>
-<meta content="상사 스트레스나 답답한 감정을 글로 적고 바로 파쇄·소각하는 웹앱. 입력한 내용은 저장되지 않고 흔적 없이 사라집니다." property="og:description"/>
-<meta content="https://anger-shredder-game.enjoy-onepage.com/" property="og:url"/>
-<meta content="https://anger-shredder-game.enjoy-onepage.com/og-image.png" property="og:image"/>
-<meta content="ko_KR" property="og:locale"/>
-<!-- Twitter Card -->
-<meta content="summary_large_image" name="twitter:card"/>
-<meta content="분노 소각 파쇄기: 스트레스 &amp; 억울한 감정 텍스트 분쇄" name="twitter:title"/>
-<meta content="상사 스트레스나 답답한 감정을 글로 적고 바로 파쇄·소각하는 웹앱. 입력한 내용은 저장되지 않고 흔적 없이 사라집니다." name="twitter:description"/>
-<meta content="https://anger-shredder-game.enjoy-onepage.com/og-image.png" name="twitter:image"/>
-<!-- Favicon & Icons -->
-<link href="./favicon.ico" rel="icon" type="image/x-icon"/>
-<link href="./favicon.ico" rel="apple-touch-icon"/>
-<!-- Tailwind & AdSense -->
-<script src="https://cdn.tailwindcss.com"></script>
-<script async="" crossorigin="anonymous" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2228289204702106"></script>
-<!-- Layout Shield & CLS Defense -->
-<style>
-    html, body { max-width: 100%; overflow-x: hidden; }
-    .manual-ad-box { width: 100%; max-width: 960px; overflow: hidden; margin: 16px auto; }
-    .manual-ad-box ins { max-width: 100% !important; overflow: hidden !important; }
-  </style>
-<!-- Schema.org JSON-LD -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>분노 소각 파쇄기 | 화나는 일을 적고 가상 파쇄기로 버리기</title>
+<meta name="description" content="화나거나 억울한 일을 적고 가상 파쇄기에 넣어 긴 조각이나 색종이 조각으로 잘라 버립니다. 쓴 글은 저장하지도 보내지도 않습니다. 무료, 가입 없음.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://anger-shredder-game.enjoy-onepage.com/">
+<meta name="theme-color" content="#3730a3">
+<link rel="icon" href="/favicon.ico">
+<meta property="og:locale" content="ko_KR">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="분노 소각 파쇄기">
+<meta property="og:title" content="분노 소각 파쇄기 | 화나는 일을 적고 가상 파쇄기로 버리기">
+<meta property="og:description" content="화나거나 억울한 일을 적고 가상 파쇄기에 넣어 긴 조각이나 색종이 조각으로 잘라 버립니다. 쓴 글은 저장하지도 보내지도 않습니다. 무료, 가입 없음.">
+<meta property="og:url" content="https://anger-shredder-game.enjoy-onepage.com/">
+<meta property="og:image" content="https://anger-shredder-game.enjoy-onepage.com/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="분노 소각 파쇄기 | 화나는 일을 적고 가상 파쇄기로 버리기">
+<meta name="twitter:description" content="화나거나 억울한 일을 적고 가상 파쇄기에 넣어 긴 조각이나 색종이 조각으로 잘라 버립니다. 쓴 글은 저장하지도 보내지도 않습니다. 무료, 가입 없음.">
+<meta name="twitter:image" content="https://anger-shredder-game.enjoy-onepage.com/og-image.png">
+<link rel="alternate" type="application/rss+xml" title="분노 소각 파쇄기 RSS" href="https://anger-shredder-game.enjoy-onepage.com/rss.xml">
+<link rel="sitemap" type="application/xml" href="https://anger-shredder-game.enjoy-onepage.com/sitemap.xml">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "WebApplication",
-  "name": "분노 소각 파쇄기: 스트레스 & 억울한 감정 텍스트 분쇄",
-  "url": "https://anger-shredder-game.enjoy-onepage.com/",
-  "description": "상사 스트레스, 답답한 감정을 텍스트로 적고 즉각 분쇄·소각하는 카타르시스 웹앱: 100% 로컬 메모리 처리로 흔적 없는 완벽한 비밀 보장을 제공합니다.",
-  "applicationCategory": "UtilityApplication",
-  "operatingSystem": "All",
-  "offers": {
-    "@type": "Offer",
-    "price": "0",
-    "priceCurrency": "KRW"
-  },
-  "mainEntity": {
-    "@type": "FAQPage",
-    "mainEntity": [
-      {
-        "@type": "Question",
-        "name": "내가 쓴 분노 글이 서버에 저장되거나 남에게 보이지 않나요?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "100% 안심하셔도 됩니다. 본 도구는 서버 통신이 전혀 없는 순수 클라이언트사이드 웹앱으로, 파쇄 버튼을 누르는 순간 브라우저 메모리에서 영구 파기됩니다."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "텍스트를 파쇄하면 진짜 스트레스가 풀리나요?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "심리학의 '감정 외재화(Emotional Externalization)' 원리에 따라 분노를 글로 적고 시각적·청각적으로 파쇄하는 행위는 뇌의 편도체 흥분을 가라앉히는 강력한 카타르시스를 제공합니다."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "효과음과 진동은 어떻게 끄나요?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "화면 상단의 음소거 토글 버튼을 누르면 무음 모드로 조용하게 사무실에서 사용할 수 있습니다."
-        }
-      }
-    ]
-  }
+  "@graph": [
+    {
+      "@type": "WebApplication",
+      "@id": "https://anger-shredder-game.enjoy-onepage.com/#webapp",
+      "name": "분노 소각 파쇄기",
+      "url": "https://anger-shredder-game.enjoy-onepage.com/",
+      "applicationCategory": "LifestyleApplication",
+      "operatingSystem": "All",
+      "inLanguage": "ko",
+      "description": "화나거나 억울한 일을 적고 가상 파쇄기에 넣어 긴 조각이나 색종이 조각으로 잘라 버리는 무료 도구입니다. 쓴 글은 저장하지도 보내지도 않고, 파쇄한 횟수만 이 기기에 남습니다.",
+      "image": "https://anger-shredder-game.enjoy-onepage.com/og-image.png",
+      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "KRW" }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://anger-shredder-game.enjoy-onepage.com/#faq",
+      "mainEntity": [
+        { "@type": "Question", "name": "내가 쓴 글이 저장되거나 전송되나요?",
+          "acceptedAnswer": { "@type": "Answer", "text": "아닙니다. 쓴 글은 이 브라우저 탭 안에만 있습니다. 이 페이지는 글을 저장하지도, 보내지도, 공유 링크에 넣지도 않으며, 파쇄하면 페이지에서 지웁니다. 탭을 닫아도 사라집니다. 이 기기에는 파쇄한 횟수만 남습니다." } },
+        { "@type": "Question", "name": "화나는 일을 적고 파쇄하면 도움이 되나요?",
+          "acceptedAnswer": { "@type": "Answer", "text": "도움이 되는 사람도 있을 수 있지만 치료는 아닙니다. 2024년 Scientific Reports에 실린 연구에서 일본 나고야대학교 연구진은 모욕적인 말을 들은 사람들에게 생각을 종이에 적게 했습니다. 종이를 버리거나 파쇄한 사람들은 화가 처음 수준으로 돌아왔다고 답했고, 종이를 그대로 가지고 있던 사람들은 더 화난 상태로 남았습니다. 이 연구는 앱이 아닌 종이로 진행돼, 디지털 방식의 효과는 알려지지 않았습니다." } },
+        { "@type": "Question", "name": "세로 절단과 십자 절단은 무엇이 다른가요?",
+          "acceptedAnswer": { "@type": "Answer", "text": "세로 절단은 글을 긴 조각 12개로 자르고, 십자 절단은 가로로도 잘라 작은 조각 120개로 만듭니다. 어느 쪽이든 글을 보여 주는 애니메이션이며, 끝나면 글을 페이지에서 지웁니다." } },
+        { "@type": "Question", "name": "소리를 끌 수 있나요?",
+          "acceptedAnswer": { "@type": "Answer", "text": "소리와 진동을 켜지 않으면 소리가 나지 않습니다. 켜면 짧은 파쇄기 소리가 나고, 지원하는 휴대폰은 잠깐 진동합니다. 이 설정은 이 기기에 기억됩니다." } },
+        { "@type": "Question", "name": "화나 스트레스를 다스리기 어려우면 어떻게 하나요?",
+          "acceptedAnswer": { "@type": "Answer", "text": "화나 스트레스가 잠, 일, 일상에 영향을 준다면 의사나 정신건강 전문가와 상담해 보세요. 시·군·구마다 있는 정신건강복지센터에서도 상담을 받을 수 있습니다. 위기 상황이거나 스스로를 해칠 생각이 든다면 바로 119에 전화하세요." } }
+      ]
+    }
+  ]
 }
-  </script>
-
-  <!-- Section 13: Mobile Typography & Button Shield Standard -->
-  <style id="mobile-hardening-shield">
-    /* 모바일 한글 단어 단위 줄바꿈 보장 & 버튼 텍스트 줄바꿈 방지 */
-    body, h1, h2, h3, h4, p, span, label {
-      word-break: keep-all;        /* 한글 단어가 중간에 잘리지 않게 단어 단위 줄바꿈 */
-      overflow-wrap: break-word;   /* 긴 영문 URL 화면 이탈 방지 */
-    }
-    button, [role="button"], a.btn {
-      white-space: nowrap;         /* 좁은 폭에서 버튼 글자가 2줄로 찌그러지는 것 방지 */
-      word-break: keep-all;
-    }
-    @media (max-width: 640px) {
-      input, select, textarea {
-        font-size: 16px !important; /* iOS 포커스 시 화면 강제 확대 방지 */
-      }
-      button, [role="button"], a.btn {
-        min-height: 42px;          /* WCAG 모바일 터치 타깃 확보 */
-      }
-    }
-  </style>
-
-<link rel="alternate" type="application/rss+xml" title="분노 소각 파쇄기: 스트레스 &amp; 억울한 감정 텍스트 분쇄" href="https://anger-shredder-game.enjoy-onepage.com/rss.xml">
-<link rel="sitemap" type="application/xml" href="https://anger-shredder-game.enjoy-onepage.com/sitemap.xml">
+</script>
+<!-- ADSENSE START: loader -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2228289204702106" crossorigin="anonymous"></script>
+<!-- ADSENSE END: loader -->
+<style>
+:root{--bg:#f5f6fc;--card:#fff;--ink:#1e1b4b;--muted:#565a75;--accent:#4338ca;--line:#e0e3f4;--g:#15803d;--r:#b91c1c}
+*{box-sizing:border-box}
+html,body{margin:0;max-width:100%;overflow-x:hidden}
+body{font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Malgun Gothic","Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6;word-break:keep-all;overflow-wrap:break-word}
+.header{background:linear-gradient(135deg,#312e81,#4f46e5);color:#fff;text-align:center;padding:26px 16px 22px}
+.header h1{margin:0;font-size:1.7rem}
+.header-sub{color:#eef2ff;margin-top:6px;font-size:.95rem}
+.wrap{max-width:1080px;margin:0 auto;padding:12px 14px 8px}
+.grid2{display:grid;grid-template-columns:1fr;gap:14px}
+@media (min-width:1024px){.grid2{grid-template-columns:1fr 1fr;align-items:start}.result{position:sticky;top:12px}}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:14px 18px;margin:14px 0}
+.grid2 .card{margin:0}
+.card h2{font-size:1.15rem;margin:4px 0 10px}
+.card h3{font-size:1rem;margin:14px 0 6px}
+.lbl{display:block;font-weight:600;margin:10px 0 4px;font-size:.95rem}
+textarea{width:100%;font:inherit;font-size:1rem;padding:10px 12px;border:1px solid var(--line);border-radius:10px;background:#fff;color:var(--ink);resize:vertical;min-height:160px}
+textarea[readonly]{background:#f8f9ff}
+.seg{display:flex;gap:6px}
+.seg label{flex:1;text-align:center;border:1px solid var(--line);border-radius:10px;padding:8px 6px;cursor:pointer;font-weight:600;background:#fff}
+.seg input{position:absolute;opacity:0;pointer-events:none}
+.seg label:has(input:checked){background:var(--accent);border-color:var(--accent);color:#fff}
+.seg label:has(input:focus-visible){outline:2px solid var(--ink);outline-offset:2px}
+.chk{display:flex;align-items:center;gap:8px;margin:10px 0;font-size:.95rem}
+.hint{font-size:.86rem;color:var(--muted);margin:6px 0}
+.btn{font:inherit;border:1px solid var(--line);background:#fff;color:var(--ink);border-radius:10px;padding:9px 14px;cursor:pointer}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:#fff}
+.btn.big{font-size:1.2rem;font-weight:800;padding:13px 20px;width:100%}
+.btn.sm{padding:4px 9px;font-size:.85rem;border-radius:8px}
+.btn:disabled{opacity:.5;cursor:not-allowed}
+.actions{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+.err{color:var(--r);font-weight:600;margin:10px 0 0}
+.machine{margin:6px 0 12px}
+.stage{position:relative;overflow:hidden;height:230px;border-radius:12px 12px 0 0;background:#eef0fb;padding:14px 16px 0}
+.paper{position:relative;height:100%;padding:12px 14px;overflow:hidden;background:#fff;background-image:repeating-linear-gradient(#fff 0 27px,#dde1f5 27px 28px);border:1px solid #d9ddf3;border-radius:8px 8px 0 0;box-shadow:0 2px 8px rgba(30,27,75,.12);font-size:1rem;line-height:28px;white-space:pre-wrap;overflow-wrap:anywhere;color:#1e1b4b}
+.paper.gone{visibility:hidden}
+.paper.piece{position:absolute;visibility:visible;will-change:transform}
+.paper-empty{color:#80869f}
+.shredder{position:relative;height:34px;background:#312e81;border-radius:6px;display:flex;align-items:center;justify-content:center}
+.mouth{position:absolute;left:10px;right:10px;top:-3px;height:6px;background:#0f0d2e;border-radius:3px}
+.brand{color:#c7d2fe;font-weight:800;letter-spacing:.2em;font-size:.8rem}
+.bin{position:relative;height:70px;margin:0 16px;border:2px solid #c7d2fe;border-top:0;border-radius:0 0 12px 12px;background:#f8f9ff;overflow:hidden}
+.bit{position:absolute;background:#fff;border:1px solid #c3c8e0;border-radius:1px;transform:rotate(var(--r))}
+@keyframes fall{from{transform:translateY(-80px) rotate(0deg)}to{transform:translateY(0) rotate(var(--r))}}
+.bit.drop{animation:fall .6s ease-in both}
+.receipt{border:1px dashed #a5b4fc;border-radius:12px;padding:10px 14px;margin-top:12px;background:#f8f9ff}
+.receipt h3{margin:2px 0 6px}
+.receipt ul{margin:0;padding-left:18px}
+.notice{border-color:#fcd34d;background:#fffbeb}
+.faq-item h3{font-size:1rem;margin:12px 0 4px}
+.faq-item p{margin:0;color:#3f4263}
+.src{font-size:.82rem;color:var(--muted)}
+.ad-box{max-width:1080px;margin:10px auto;padding:0 14px;background:transparent;overflow:hidden;text-align:center}
+.ad-top ins{max-height:90px}
+.footer{text-align:center;font-size:.85rem;color:var(--muted);padding:18px 14px 28px}
+.footer a{color:var(--muted)}
+.toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%);background:#1e1b4b;color:#fff;padding:10px 18px;border-radius:999px;font-size:.9rem;opacity:0;pointer-events:none;transition:opacity .2s;z-index:50;max-width:90vw}
+.toast.show{opacity:1}
+@media (prefers-reduced-motion: reduce){.toast{transition:none}.bit.drop{animation:none}}
+</style>
 </head>
-<body class="bg-zinc-950 text-zinc-100 font-sans min-h-screen flex flex-col justify-between">
-<header class="border-b border-zinc-800 bg-zinc-900/80 backdrop-blur sticky top-0 z-30">
-<div class="max-w-xl mx-auto px-4 py-3 flex items-center justify-between">
-<div class="flex items-center gap-2">
-<span class="text-xl">🔥</span>
-<h1 class="text-sm font-bold text-rose-500">디지털 감정 소각장 (Anger Shredder)</h1>
-</div>
-<a class="text-xs bg-zinc-800 hover:bg-zinc-700 text-zinc-300 px-2.5 py-1 rounded-lg border border-zinc-700" href="guides/guide.html">
-        가이드
-      </a>
-</div>
+<body>
+<header class="header">
+  <h1>분노 소각 파쇄기</h1>
+  <div class="header-sub">적고, 파쇄해서 버리기 · 쓴 글은 저장하지도 보내지도 않음 · 무료, 가입 없음</div>
 </header>
 
-  <!-- Top Slim Ad Banner (50~60px) -->
+<!-- ADSENSE START: top -->
+<div class="ad-box ad-top">
+  <ins class="adsbygoogle" style="display:block;height:60px;max-height:90px" data-ad-client="ca-pub-2228289204702106" data-ad-slot="3824727725" data-ad-format="horizontal" data-full-width-responsive="true"></ins>
+  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+</div>
+<!-- ADSENSE END: top -->
 
-    <!-- Section 16-1: Featured Snippet 3-Second Instant Answer Box -->
-  <section class="max-w-4xl mx-auto px-4 pt-3 pb-2">
-    <div class="featured-snippet-box bg-gradient-to-br from-indigo-900 to-slate-900 text-white rounded-2xl p-5 sm:p-6 shadow-md border border-indigo-700/40 space-y-2.5">
-      <div class="flex items-center gap-2">
-        <span class="bg-indigo-500/30 text-indigo-300 text-xs font-extrabold px-3 py-1 rounded-full border border-indigo-400/30">
-          ⚡ 디지털 감정 소각장 분노 파쇄기 요약
-        </span>
-        <span class="text-xs text-slate-400 font-medium">스트레스 해소 카타르시스 파쇄 엔진</span>
+<main class="wrap">
+  <div class="grid2">
+    <section class="card" id="writer" aria-labelledby="in-h">
+      <h2 id="in-h">1. 적어 보기</h2>
+      <label class="lbl" for="worry">무엇 때문에 화가 나나요? <span class="hint">(최대 2,000자)</span></label>
+      <textarea id="worry" rows="7" maxlength="2000" autocomplete="off" spellcheck="false" placeholder="털어 버리고 싶은 화, 억울함, 걱정을 적어 보세요…"></textarea>
+      <p class="hint" id="meter" aria-live="polite"></p>
+      <p class="hint">팁: Ctrl+Enter(맥은 ⌘+Enter)를 누르면 바로 파쇄합니다.</p>
+      <span class="lbl" id="cut-l">파쇄 방식</span>
+      <div class="seg" role="radiogroup" aria-labelledby="cut-l">
+        <label><input type="radio" name="cut" value="strip" checked> 세로 절단</label>
+        <label><input type="radio" name="cut" value="cross"> 십자 절단</label>
       </div>
-      <h3 class="text-base sm:text-lg font-black leading-snug text-white">
-        야근 지시, 잠수 팀원, 카드값 등 분노 사유를 선택해 파쇄기에 넣고 갈아버리는 디지털 힐링
-      </h3>
-      <ul class="space-y-1 text-xs text-slate-200 leading-relaxed list-disc list-inside">
-        <li><strong>리얼 파쇄 애니메이션 & 효과음:</strong> 문서를 파쇄기에 집어넣어 갈갈이 조각내는 시각적 쾌감 및 햅틱 인터랙션.</li>
-        <li><strong>100% 로컬 보안 파쇄:</strong> 어떤 불만이나 비밀스러운 텍스트도 서버로 저장되지 않고 메모리에서 영구 소멸.</li>
-        <li><strong>소각 확인서 발급:</strong> 파쇄 완료 후 멘탈 정화 등급과 위트 있는 소각 증명서 즉시 생성.</li>
-      </ul>
-    </div>
-  </section>
+      <p class="hint" id="cut-note"></p>
+      <label class="chk"><input type="checkbox" id="sound"> 🔊 소리와 진동</label>
+      <p class="err" id="err" role="alert" hidden></p>
+      <p class="hint">🔒 쓴 글은 이 탭 안에만 있습니다. 저장하거나 보내지 않으며, 이 칸의 맞춤법 검사도 꺼 두었습니다.</p>
+    </section>
 
-  <!-- Section 16-2: Visual 3-Step HowTo & KBD Keyboard Standard -->
-  <section class="max-w-4xl mx-auto px-4 py-2.5">
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-3.5">
-      <div class="step-card bg-white dark:bg-slate-900 p-4 rounded-xl border border-slate-200 dark:border-slate-800 shadow-sm flex items-start gap-3">
-        <div class="step-badge w-8 h-8 rounded-full bg-indigo-600 text-white flex items-center justify-center font-black text-sm shrink-0">01</div>
-        <div>
-          <h4 class="font-bold text-sm text-slate-900 dark:text-white">분노 사유 선택 또는 직접 기입</h4>
-          <p class="text-xs text-slate-500 dark:text-slate-400 mt-1">프리셋 버튼(긴급 메일, 잠수 팀원, 카드값, 기획서 수정)을 누르거나 직접 스트레스 사유를 적습니다.</p>
+    <section class="card result" aria-labelledby="out-h">
+      <h2 id="out-h">2. 파쇄하기</h2>
+      <div class="machine">
+        <div class="stage" id="stage">
+          <div class="paper" id="paper" aria-hidden="true"><div id="paper-text"></div><div class="paper-empty" id="paper-empty">쓰는 글이 여기에 보입니다.</div></div>
+        </div>
+        <div class="shredder" aria-hidden="true"><div class="mouth"></div><div class="brand">파쇄</div></div>
+        <div class="bin" id="bin" aria-hidden="true"></div>
+      </div>
+      <button type="button" class="btn primary big" id="btn-shred" disabled>🗑️ 파쇄하기</button>
+      <div class="receipt" id="receipt" role="status" hidden>
+        <h3>파쇄 완료 ✓</h3>
+        <ul>
+          <li id="r-size"></li>
+          <li id="r-cut"></li>
+          <li id="r-time"></li>
+          <li>저장된 것: 없음. 글은 이 페이지에서 지웠습니다.</li>
+        </ul>
+        <div class="actions">
+          <button type="button" class="btn" id="btn-copy">📋 복사</button>
+          <button type="button" class="btn" id="btn-share">📤 공유</button>
+          <button type="button" class="btn" id="btn-again">✍️ 새로 쓰기</button>
         </div>
       </div>
-      <div class="step-card bg-white dark:bg-slate-900 p-4 rounded-xl border border-slate-200 dark:border-slate-800 shadow-sm flex items-start gap-3">
-        <div class="step-badge w-8 h-8 rounded-full bg-indigo-600 text-white flex items-center justify-center font-black text-sm shrink-0">02</div>
-        <div>
-          <h4 class="font-bold text-sm text-slate-900 dark:text-white"><kbd class="px-1.5 py-0.5 text-[10px] font-semibold text-slate-800 bg-slate-100 border border-slate-300 rounded">[⚙️파쇄기에 넣고 갈아버리기]</kbd> 실행</h4>
-          <p class="text-xs text-slate-500 dark:text-slate-400 mt-1"><kbd class="px-1.5 py-0.5 text-[10px] font-semibold text-slate-800 bg-slate-100 border border-slate-300 rounded">[⚙️파쇄기에 넣고 갈아버리기]</kbd> 버튼을 누르면 서류가 파쇄기 투입구로 빨려 들어가며 실시간 조각 파쇄 애니메이션이 펼쳐집니다.</p>
-        </div>
-      </div>
-      <div class="step-card bg-white dark:bg-slate-900 p-4 rounded-xl border border-slate-200 dark:border-slate-800 shadow-sm flex items-start gap-3">
-        <div class="step-badge w-8 h-8 rounded-full bg-indigo-600 text-white flex items-center justify-center font-black text-sm shrink-0">03</div>
-        <div>
-          <h4 class="font-bold text-sm text-slate-900 dark:text-white">소각 완료 확인서 수령 & 카피 복사</h4>
-          <p class="text-xs text-slate-500 dark:text-slate-400 mt-1">소각이 끝난 후 발급되는 <strong>멘탈 소각 완료 증명서</strong>를 확인하고, <kbd class="px-1.5 py-0.5 text-[10px] font-semibold text-slate-800 bg-slate-100 border border-slate-300 rounded">[📋 소각 완료 카피 복사]</kbd>로 속마음을 털어냅니다.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <div class="manual-ad-box text-center my-3" style="min-height: 60px;">
-    <ins class="adsbygoogle"
-         style="display:block"
-         data-ad-client="ca-pub-2228289204702106"
-         data-ad-slot="3824727725"
-         data-ad-format="horizontal"
-         data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+      <p class="hint" id="tally"></p>
+      <div class="actions"><button type="button" class="btn sm" id="btn-reset" disabled>횟수 초기화</button></div>
+    </section>
   </div>
 
+<!-- ADSENSE START: mid (right after the result card) -->
+<div class="ad-box ad-mid">
+  <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2228289204702106" data-ad-slot="1186914926" data-ad-format="auto" data-full-width-responsive="true"></ins>
+  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+</div>
+<!-- ADSENSE END: mid -->
 
-<main class="max-w-xl mx-auto px-4 py-4 w-full flex-grow flex flex-col justify-center text-center">
-<div class="bg-zinc-900 border border-zinc-800 rounded-3xl p-6 shadow-2xl relative">
-<p class="text-xs font-bold text-rose-500 uppercase tracking-widest mb-1">STRESS DIGITAL INCINERATOR</p>
-<h2 class="text-2xl font-black text-white mb-2">분노 서류 완전 파쇄 &amp; 소각</h2>
-<p class="text-xs text-zinc-400 mb-5">파쇄할 서류를 선택하고 [분쇄 개시]를 누르세요</p>
-<!-- Preset Chips -->
-<div class="grid grid-cols-2 gap-2 mb-5">
-<button class="chip-btn px-3 py-2 bg-zinc-800 hover:bg-zinc-700 text-xs font-bold rounded-xl border border-zinc-700 text-zinc-200 active:border-rose-500 transition" data-title="금일 17:59분 긴급 업무 메일">
-          📩 17:59분 긴급 메일
-        </button>
-<button class="chip-btn px-3 py-2 bg-zinc-800 hover:bg-zinc-700 text-xs font-bold rounded-xl border border-zinc-700 text-zinc-200 active:border-rose-500 transition" data-title="조별과제 잠수탄 팀원 카톡">
-          👻 조별과제 잠수 팀원
-        </button>
-<button class="chip-btn px-3 py-2 bg-zinc-800 hover:bg-zinc-700 text-xs font-bold rounded-xl border border-zinc-700 text-zinc-200 active:border-rose-500 transition" data-title="통장 스쳐 지나간 카드값 청구서">
-          💸 스쳐간 카드값 고지서
-        </button>
-<button class="chip-btn px-3 py-2 bg-zinc-800 hover:bg-zinc-700 text-xs font-bold rounded-xl border border-zinc-700 text-zinc-200 active:border-rose-500 transition" data-title="끝없는 무한 기획서 수정 지시">
-          🔄 무한 기획서 수정 지시
-        </button>
-</div>
-<!-- Shredder Paper View -->
-<div class="bg-zinc-950 p-6 rounded-2xl border-2 border-zinc-800 relative overflow-hidden my-3">
-<div class="bg-white text-zinc-900 p-4 rounded-xl shadow-lg font-mono text-left transition-all duration-300" id="paper-doc">
-<p class="text-[10px] text-zinc-400 border-b pb-1 font-bold">TOP SECRET / 분노 대상 문서</p>
-<p class="text-sm font-black text-rose-600 my-2" id="target-doc-title">금일 17:59분 긴급 업무 메일</p>
-<p class="text-[11px] text-zinc-500">"내일까지 완벽하게 다 정리해 두세요. 별거 아니죠?"</p>
-</div>
-<div class="hidden text-rose-500 font-black text-lg py-6 animate-pulse" id="shredding-anim">
-          ⚡ 지지직... 칼날 분쇄 중... ⚡
-        </div>
-</div>
-<div class="my-4">
-<button class="w-full bg-rose-600 hover:bg-rose-500 text-white font-black py-4 px-6 rounded-2xl text-base shadow-lg shadow-rose-600/20 transition flex items-center justify-center gap-2" id="shred-btn">
-<span>⚙️</span> <span id="shred-text">파쇄기에 넣고 갈아버리기</span>
-</button>
-</div>
-<!-- Certificate Card -->
-<div class="mt-5 bg-zinc-950 border-2 border-rose-900/60 rounded-2xl p-5 text-left font-mono hidden shadow-xl" id="cert-card">
-<div class="flex justify-between items-center border-b border-zinc-800 pb-2 mb-3">
-<span class="text-xs font-bold text-rose-500">✓ 국립과학수사연구원 규격 패러디</span>
-<span class="text-[10px] text-zinc-500">완전 소각 증명서</span>
-</div>
-<div class="space-y-1.5 text-xs text-zinc-300">
-<p>• 소각 대상: <span class="text-white font-bold" id="c-title">17:59분 긴급 업무 메일</span></p>
-<p>• 소각된 분노 질량: <span class="font-bold text-rose-400">4.8kg (재 0.0g 잔류)</span></p>
-<p>• 생체 회복 지표: <span class="text-emerald-400 font-bold">솟구쳤던 혈압 18mmHg 정상화</span></p>
-<p class="pt-2 text-zinc-400 text-[11px] border-t border-zinc-800">
-            [보증] 본 분노는 대기 중으로 기화되었으며 어떠한 미련도 남지 않았음을 증명함. [인감 날인 쾅]
-          </p>
-</div>
-<div class="mt-4 flex gap-2">
-<button class="flex-1 bg-rose-600 hover:bg-rose-500 text-white font-bold py-2.5 px-3 rounded-xl text-xs transition" id="copy-btn">
-            📋 소각 완료 카피 복사
-          </button>
-<button class="px-3 py-2.5 bg-zinc-800 text-zinc-300 text-xs rounded-xl font-bold" id="reset-btn">
-            다른 서류 소각
-          </button>
-</div>
-</div>
-</div>
-<section class="mt-6 bg-zinc-900 border border-zinc-800 rounded-2xl p-5 text-xs text-zinc-400 text-left">
-<h3 class="font-bold text-zinc-200 text-sm mb-2">디지털 감정 소각장 FAQ</h3>
-<details class="group cursor-pointer">
-<summary class="font-semibold text-zinc-300 list-none flex justify-between py-1">
-<span>Q. 모터 회전음 사운드는 어떻게 구현되었나요?</span>
-<span class="text-zinc-500 group-open:rotate-180 transition">▼</span>
-</summary>
-<p class="mt-1.5 text-zinc-400 leading-relaxed">
-          브라우저 내장 Web Audio API의 톱니파(Sawtooth)와 저역통과 필터(LPF)를 조합하여 실제 사무용 파쇄기의 모터 마찰음을 실시간 합성합니다.
-        </p>
-</details>
-</section>
+  <section class="card" aria-labelledby="how-h">
+    <h2 id="how-h">🧾 이렇게 동작합니다</h2>
+    <ul>
+      <li><strong>비공개:</strong> 쓴 글은 이 브라우저 탭 안에만 있습니다. 이 페이지는 글을 저장하지도, 보내지도, 공유 링크에 넣지도 않습니다. 글쓰기 칸의 맞춤법 검사와 자동 완성은 꺼 두었고, 파쇄하면 글을 페이지에서 지웁니다.</li>
+      <li><strong>두 가지 방식:</strong> 세로 절단은 긴 조각 12개, 십자 절단은 가로로도 잘라 작은 조각 120개입니다. 통에 떨어지는 조각은 빈 종이입니다.</li>
+      <li><strong>횟수:</strong> 이 기기에 남는 것은 지금까지 파쇄한 횟수와 오늘 횟수뿐입니다. 언제든 초기화할 수 있습니다.</li>
+      <li><strong>소리:</strong> 소리와 진동을 켜지 않으면 조용합니다. 기기가 동작 줄이기로 설정돼 있으면 애니메이션 없이 바로 지웁니다.</li>
+    </ul>
+  </section>
+
+  <section class="card" aria-labelledby="why-h">
+    <h2 id="why-h">📚 왜 적고 버리나요?</h2>
+    <p>2024년 Scientific Reports에 실린 연구에서 일본 나고야대학교 연구진은 모욕적인 말을 들은 사람들에게 자기 생각을 종이에 적게 했습니다. 두 번의 실험(최종 분석 96명)에서 종이를 쓰레기통에 버리거나 파쇄기에 넣은 사람들은 화가 처음 수준으로 돌아왔다고 답했고, 종이를 그대로 가지고 있던 사람들은 처음보다 더 화난 상태로 남았습니다. 이 연구는 휴대폰이나 컴퓨터가 아닌 종이로 진행했고 직후의 화만 측정했으며, 저자들도 디지털 방식은 시험하지 않았다고 밝혔습니다. 이 페이지는 '적고 버리기'라는 같은 단순한 방법을 제공할 뿐, 어떤 효과도 약속하지 않습니다.</p>
+    <p class="src">출처: Kanaya Y., Kawai N., "Anger is eliminated with the disposal of a paper written because of provocation", Scientific Reports, 2024. 2026년 9월 확인.</p>
+  </section>
+
+  <section class="card" id="faq" aria-labelledby="faq-h">
+    <h2 id="faq-h">❓ 자주 묻는 질문</h2>
+    <div class="faq-item"><h3>내가 쓴 글이 저장되거나 전송되나요?</h3><p>아닙니다. 쓴 글은 이 브라우저 탭 안에만 있습니다. 이 페이지는 글을 저장하지도, 보내지도, 공유 링크에 넣지도 않으며, 파쇄하면 페이지에서 지웁니다. 탭을 닫아도 사라집니다. 이 기기에는 파쇄한 횟수만 남습니다.</p></div>
+    <div class="faq-item"><h3>화나는 일을 적고 파쇄하면 도움이 되나요?</h3><p>도움이 되는 사람도 있을 수 있지만 치료는 아닙니다. 2024년 Scientific Reports에 실린 연구에서 일본 나고야대학교 연구진은 모욕적인 말을 들은 사람들에게 생각을 종이에 적게 했습니다. 종이를 버리거나 파쇄한 사람들은 화가 처음 수준으로 돌아왔다고 답했고, 종이를 그대로 가지고 있던 사람들은 더 화난 상태로 남았습니다. 이 연구는 앱이 아닌 종이로 진행돼, 디지털 방식의 효과는 알려지지 않았습니다.</p></div>
+    <div class="faq-item"><h3>세로 절단과 십자 절단은 무엇이 다른가요?</h3><p>세로 절단은 글을 긴 조각 12개로 자르고, 십자 절단은 가로로도 잘라 작은 조각 120개로 만듭니다. 어느 쪽이든 글을 보여 주는 애니메이션이며, 끝나면 글을 페이지에서 지웁니다.</p></div>
+    <div class="faq-item"><h3>소리를 끌 수 있나요?</h3><p>소리와 진동을 켜지 않으면 소리가 나지 않습니다. 켜면 짧은 파쇄기 소리가 나고, 지원하는 휴대폰은 잠깐 진동합니다. 이 설정은 이 기기에 기억됩니다.</p></div>
+    <div class="faq-item"><h3>화나 스트레스를 다스리기 어려우면 어떻게 하나요?</h3><p>화나 스트레스가 잠, 일, 일상에 영향을 준다면 의사나 정신건강 전문가와 상담해 보세요. 시·군·구마다 있는 정신건강복지센터에서도 상담을 받을 수 있습니다. 위기 상황이거나 스스로를 해칠 생각이 든다면 바로 119에 전화하세요.</p></div>
+  </section>
+
+  <section class="card notice" aria-labelledby="note-h">
+    <h2 id="note-h">⚠️ 알아두세요</h2>
+    <p>이 페이지는 일상의 화와 걱정을 적고 버리는 비공개 도구입니다. 치료나 상담, 의료·정신건강 조언이 아니며, 무엇을 진단하거나 치료하지 않습니다. 위기 상황이거나 스스로를 해칠 생각이 든다면 바로 119에 전화하세요.</p>
+  </section>
 </main>
 
-<div class="fixed bottom-6 left-1/2 transform -translate-x-1/2 bg-white text-zinc-900 font-bold text-xs px-5 py-2.5 rounded-full shadow-2xl transition-opacity duration-300 opacity-0 pointer-events-none z-50" id="toast">
-    소각 증명 카피가 복사되었습니다!
-  </div>
-<!-- E-E-A-T In-Depth Guidebook & FAQ & Hub-and-Spoke Links -->
-<section class="max-w-4xl mx-auto px-4 py-8 space-y-8">
-<!-- Hub & Spoke Magazine Guide Banner -->
-<div class="bg-gradient-to-r from-indigo-50 to-blue-50 dark:from-indigo-950/40 dark:to-blue-950/40 border border-indigo-100 dark:border-indigo-800/50 rounded-2xl p-6 sm:p-8 flex flex-col sm:flex-row items-center justify-between gap-6 shadow-sm">
-<div class="space-y-2 text-center sm:text-left">
-<span class="text-xs font-bold text-indigo-600 dark:text-indigo-400 uppercase tracking-wider">2,000자+ 전문 매거진 심층 분석</span>
-<h2 class="text-xl sm:text-2xl font-extrabold text-slate-900 dark:text-white">
-          분노 소각 파쇄기 완벽 해설 가이드북
-        </h2>
-<p class="text-xs sm:text-sm text-slate-600 dark:text-slate-300 max-w-xl leading-relaxed">
-          법령 산식, 2026년 최신 고시, 상황별 비교 분석표 및 실무 절세·행동 요령이 수록된 전문 가이드북을 지금 무료로 확인하세요.
-        </p>
+<!-- ADSENSE START: bottom -->
+<div class="ad-box ad-bottom">
+  <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2228289204702106" data-ad-slot="3416334507" data-ad-format="auto" data-full-width-responsive="true"></ins>
+  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
 </div>
-<a class="inline-flex items-center gap-2 bg-indigo-600 hover:bg-indigo-700 text-white font-bold px-6 py-3.5 rounded-xl transition shadow hover:shadow-md text-sm whitespace-nowrap" href="./guides/guide.html">
-<span>📖</span> <span>심층 가이드북 읽기 →</span>
-</a>
-</div>
-<!-- FAQ Accordion -->
-<div class="space-y-4">
-<div class="border-b border-slate-200 dark:border-slate-800 pb-3">
-<h2 class="text-xl font-bold text-slate-900 dark:text-white flex items-center gap-2">
-<span>💡</span> 자주 묻는 질문 (E-E-A-T FAQ 3선)
-        </h2>
-</div>
-<div class="space-y-4">
-<div class="border border-slate-200 dark:border-slate-700 rounded-xl p-5 bg-white dark:bg-slate-800 shadow-sm space-y-2">
-<h3 class="font-bold text-base text-slate-900 dark:text-white flex items-center gap-2">
-<span class="text-indigo-600 dark:text-indigo-400 font-extrabold">Q.</span> 내가 쓴 분노 글이 서버에 저장되거나 남에게 보이지 않나요?
-          </h3>
-<p class="text-sm text-slate-600 dark:text-slate-300 leading-relaxed pl-6">
-            100% 안심하셔도 됩니다. 본 도구는 서버 통신이 전혀 없는 순수 클라이언트사이드 웹앱으로, 파쇄 버튼을 누르는 순간 브라우저 메모리에서 영구 파기됩니다.
-          </p>
-</div>
-<div class="border border-slate-200 dark:border-slate-700 rounded-xl p-5 bg-white dark:bg-slate-800 shadow-sm space-y-2">
-<h3 class="font-bold text-base text-slate-900 dark:text-white flex items-center gap-2">
-<span class="text-indigo-600 dark:text-indigo-400 font-extrabold">Q.</span> 텍스트를 파쇄하면 진짜 스트레스가 풀리나요?
-          </h3>
-<p class="text-sm text-slate-600 dark:text-slate-300 leading-relaxed pl-6">
-            심리학의 '감정 외재화(Emotional Externalization)' 원리에 따라 분노를 글로 적고 시각적·청각적으로 파쇄하는 행위는 뇌의 편도체 흥분을 가라앉히는 강력한 카타르시스를 제공합니다.
-          </p>
-</div>
-<div class="border border-slate-200 dark:border-slate-700 rounded-xl p-5 bg-white dark:bg-slate-800 shadow-sm space-y-2">
-<h3 class="font-bold text-base text-slate-900 dark:text-white flex items-center gap-2">
-<span class="text-indigo-600 dark:text-indigo-400 font-extrabold">Q.</span> 효과음과 진동은 어떻게 끄나요?
-          </h3>
-<p class="text-sm text-slate-600 dark:text-slate-300 leading-relaxed pl-6">
-            화면 상단의 음소거 토글 버튼을 누르면 무음 모드로 조용하게 사무실에서 사용할 수 있습니다.
-          </p>
-</div>
-</div>
-</div>
-<!-- Official Legal Disclaimer -->
-<div class="bg-slate-100 dark:bg-slate-800/60 rounded-xl p-5 border border-slate-200 dark:border-slate-700 text-xs text-slate-500 dark:text-slate-400 space-y-1.5 leading-relaxed">
-<div class="font-bold text-slate-700 dark:text-slate-300 flex items-center gap-1.5">
-<span>⚖️</span> <span>법적 고지 및 면책 조항 (Legal Disclaimer)</span>
-</div>
-<p>
-        본 웹 애플리케이션의 모든 연산 결과와 시뮬레이션 수치는 2026년 최신 관계 법령 및 표준 산식을 기초로 산출된 참고용 추정치입니다. 실제 개별 세무 정산, 대출 승인, 정부 지원금 수령 등은 개인의 구체적 조건에 따라 차이가 발생할 수 있습니다. 본 사이트는 도구의 계산 결과를 근거로 한 금융·법률적 결정에 대해 법적 책임을 지지 않습니다.
-      </p>
-</div>
-</section>
+<!-- ADSENSE END: bottom -->
 
-  <!-- Additional E-E-A-T In-depth Educational Guide & Action Checklist -->
-  <section class="max-w-4xl mx-auto px-4 py-6">
-    <div class="bg-white dark:bg-slate-900 rounded-2xl p-6 sm:p-8 border border-slate-200 dark:border-slate-800 shadow-sm space-y-4">
-      <h2 class="text-xl font-bold text-slate-900 dark:text-white flex items-center gap-2">
-        <span>📋</span> 2026년 실무 핵심 활용 전략 및 실천 가이드
-      </h2>
-      <p class="text-sm text-slate-600 dark:text-slate-300 leading-relaxed">
-        본 도구는 최신 2026년 제도 기준과 수학적 공식에 기반하여 설계되었습니다. 정확한 결과 도출을 위해 아래 3대 실천 수칙을 준수하시기 바랍니다:
-      </p>
-      <ul class="space-y-2 text-sm text-slate-700 dark:text-slate-300 list-disc list-inside leading-relaxed pl-2">
-        <li><strong>정확한 기본 데이터 입력:</strong> 공식 증빙 서류(근로계약서, 소득금액증명원, 영수증 등)에 기재된 정확한 세전/세후 수치를 입력하세요.</li>
-        <li><strong>결과 검토 및 시뮬레이션:</strong> 단일 조건에 안주하지 않고 다양한 변수(기간 연장, 금리 변동, 할인율 적용 등)를 대입하여 최적의 플랜을 수립하세요.</li>
-        <li><strong>공식 가이드북 대조:</strong> 상세한 법령 배경과 심층 비교표가 수록된 <a href="./guides/guide.html" class="text-indigo-600 dark:text-indigo-400 font-bold underline hover:text-indigo-800">2026 전문 매거진 가이드북</a>을 통해 실무적인 유의사항을 최종 점검하세요.</li>
-      </ul>
-      <div class="pt-4 border-t border-slate-100 dark:border-slate-800 text-xs text-slate-500 dark:text-slate-400">
-        ※ 본 유틸리티의 모든 연산은 외부 서버로 전송되지 않는 100% 클라이언트 로컬 보안 연산입니다. 안심하고 자유롭게 활용하세요.
-      </div>
-    </div>
-  </section>
-
-
-
-
-  <!-- Bottom Large Ad Banner -->
-  <div class="manual-ad-box text-center my-6">
-    <ins class="adsbygoogle"
-         style="display:block"
-         data-ad-client="ca-pub-2228289204702106"
-         data-ad-slot="3416334507"
-         data-ad-format="auto"
-         data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
-
-
-  <!-- Section 16-4: Mobius Loop Topic Cluster Cross-Link Banner -->
-  <section class="max-w-4xl mx-auto px-4 my-6">
-    <div class="mobius-loop-banner bg-slate-900 text-white rounded-2xl p-6 border border-slate-800 flex flex-col sm:flex-row items-center justify-between gap-4 shadow-md">
-      <div class="space-y-1 text-center sm:text-left">
-        <div class="flex items-center justify-center sm:justify-start gap-2">
-          <span class="text-xs font-bold text-indigo-400 uppercase tracking-wider">뫼비우스 트래픽 순환 공식 파트너</span>
-          <span class="text-xs bg-slate-800 text-slate-300 px-2 py-0.5 rounded font-mono">life-kr</span>
-        </div>
-        <h4 class="text-base sm:text-lg font-bold text-white">
-          직장 내 감정 노동과 분노 억압 해소를 위한 감정 외재화 실무 가이드
-        </h4>
-        <p class="text-xs text-slate-400">
-          전문 저널리스트가 심층 분석한 공식 정책·기술 데이터 리포트를 함께 읽어보세요.
-        </p>
-      </div>
-      <a href="https://life-kr.enjoy-onepage.com" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 bg-indigo-600 hover:bg-indigo-700 text-white font-bold px-5 py-2.5 rounded-xl transition text-xs whitespace-nowrap shadow">
-        <span>매거진 리포트 읽기</span> <span>→</span>
-      </a>
-    </div>
-  </section>
-
-<footer class="bg-white dark:bg-slate-900 border-t border-slate-200 dark:border-slate-800 py-8 text-center text-xs text-slate-500 dark:text-slate-400 mt-12">
-<div class="max-w-4xl mx-auto px-4 space-y-3">
-<div class="flex justify-center gap-4 text-xs font-medium">
-<a class="hover:underline" href="./index.html">메인 도구</a>
-<span>•</span>
-<a class="hover:underline" href="./guides/guide.html">전문 가이드북</a>
-<span>•</span>
-<a class="hover:underline" href="./privacy.html">개인정보처리방침</a>
-<span>•</span>
-<a class="hover:underline" href="./terms.html">이용약관</a>
-</div>
-<p>© 2026 enjoy-onepage.com. All rights reserved.</p>
-</div>
+<footer class="footer">
+  <p>무료 가상 파쇄기입니다. 쓴 글은 저장하지도 보내지도 않습니다.</p>
+  <p><a href="/privacy.html">개인정보처리방침</a> | <a href="/terms.html">이용약관</a></p>
 </footer>
 
-  <script>
-    let audioCtx = null;
-    function playShredSound() {
-      try {
-        if (!audioCtx) audioCtx = new (window.AudioContext || window.webkitAudioContext)();
-        if (audioCtx.state === 'suspended') audioCtx.resume();
-        const osc = audioCtx.createOscillator();
-        const gain = audioCtx.createGain();
-        osc.type = 'sawtooth';
-        osc.frequency.setValueAtTime(80, audioCtx.currentTime);
-        osc.frequency.linearRampToValueAtTime(140, audioCtx.currentTime + 3.0);
-        gain.gain.setValueAtTime(0.12, audioCtx.currentTime);
-        gain.gain.exponentialRampToValueAtTime(0.001, audioCtx.currentTime + 3.5);
-        osc.connect(gain);
-        gain.connect(audioCtx.destination);
-        osc.start();
-        osc.stop(audioCtx.currentTime + 3.5);
-      } catch (e) {}
+<div id="global-ux-toast" class="toast" role="status" aria-live="polite"></div>
+
+<!-- LOGIC START -->
+<script>
+(function () {
+  'use strict';
+  var SITE = 'https://anger-shredder-game.enjoy-onepage.com';
+  var TOOL_NAME = '분노 소각 파쇄기';
+  var TALLY = 'anger.tally.v1', SOUND = 'anger.sound.v1', MAX = 2000, DURATION = 1600;
+  var CUTS = {
+    strip: { cols: 12, rows: 1, label: '세로 절단, 긴 조각 12개', note: '긴 조각 12개로 자릅니다.' },
+    cross: { cols: 12, rows: 10, label: '십자 절단, 작은 조각 120개', note: '색종이처럼 작은 조각 120개로 자릅니다.' }
+  };
+
+  function $(id) { return document.getElementById(id); }
+  function on(id, ev, fn) { var el = $(id); if (el) el.addEventListener(ev, fn); }
+  function setText(id, t) { var el = $(id); if (el) el.textContent = t; }
+  function pad2(n) { return (n < 10 ? '0' : '') + n; }
+  function todayKey() { var d = new Date(); return d.getFullYear() + '-' + pad2(d.getMonth() + 1) + '-' + pad2(d.getDate()); }
+  function fmt(n) { return n.toLocaleString('ko-KR'); }
+  function setErr(m) { var e = $('err'); if (e) { e.textContent = m || ''; e.hidden = !m; } }
+  function whenLabel(d) {
+    var h = d.getHours();
+    return (d.getMonth() + 1) + '월 ' + d.getDate() + '일 (' + '일월화수목금토'.charAt(d.getDay()) + ') ' + (h < 12 ? '오전 ' : '오후 ') + (h % 12 || 12) + ':' + pad2(d.getMinutes());
+  }
+
+  /* ---------- counting: words = runs of non-space characters; characters = what a reader sees (emoji count once) ---------- */
+  var graphemes = null;
+  try { if (window.Intl && Intl.Segmenter) graphemes = new Intl.Segmenter('ko', { granularity: 'grapheme' }); } catch (e) { graphemes = null; }
+  function charCount(s) { if (!s) return 0; return graphemes ? Array.from(graphemes.segment(s)).length : Array.from(s).length; }
+  function wordCount(s) { var t = s.trim(); return t ? t.split(/\s+/).length : 0; }
+
+  /* ---------- saved settings: only a count and the sound choice, never the text ---------- */
+  function readSound() { try { return localStorage.getItem(SOUND) === '1'; } catch (e) { return false; } }
+  function readTally() {
+    var v = null;
+    try { v = JSON.parse(localStorage.getItem(TALLY)); } catch (e) { v = null; }
+    if (!v || typeof v !== 'object' || !Number.isInteger(v.total) || v.total < 0 || v.total > 1e9 ||
+        !Number.isInteger(v.today) || v.today < 0 || v.today > v.total || typeof v.day !== 'string' || !/^\d{4}-\d{2}-\d{2}$/.test(v.day)) {
+      return { total: 0, today: 0, day: '' };
     }
+    return { total: v.total, today: v.day === todayKey() ? v.today : 0, day: v.day };
+  }
+  function bumpTally() {
+    var t = readTally(), next = { total: t.total + 1, today: t.today + 1, day: todayKey() };
+    try { localStorage.setItem(TALLY, JSON.stringify(next)); return true; } catch (e) { return false; }
+  }
+  function renderTally(msg) {
+    var t = readTally();
+    setText('tally', msg || (t.total ? '이 기기에서 파쇄한 글: ' + fmt(t.total) + '장 · 오늘 ' + fmt(t.today) + '장' : '아직 이 기기에서 파쇄한 글이 없습니다.'));
+    var b = $('btn-reset'); if (b) b.disabled = !t.total;
+  }
 
-    const docEl = document.getElementById('paper-doc');
-    const shredAnim = document.getElementById('shredding-anim');
-    const shredBtn = document.getElementById('shred-btn');
-    const shredText = document.getElementById('shred-text');
-    const certCard = document.getElementById('cert-card');
-    const targetTitle = document.getElementById('target-doc-title');
-    const cTitle = document.getElementById('c-title');
+  /* ---------- writing box and paper preview ---------- */
+  var busy = false, last = null;
+  function cutValue() { var r = document.querySelector('input[name="cut"]:checked'); return r && CUTS[r.value] ? r.value : 'strip'; }
+  function renderMeter() {
+    var ta = $('worry'), v = ta ? ta.value : '', t = v.trim();
+    if (v.length > MAX) setText('meter', '너무 깁니다: ' + fmt(v.length) + '/' + fmt(MAX) + '자. 줄여야 파쇄할 수 있습니다.');
+    else setText('meter', fmt(wordCount(v)) + '단어 · ' + fmt(charCount(t)) + '자');
+    if (!busy) setText('paper-text', v);
+    var pe = $('paper-empty'); if (pe) pe.hidden = !!t;
+    var b = $('btn-shred'); if (b) b.disabled = busy || !t || v.length > MAX;
+    if (t) setErr('');
+  }
 
-    // Chip select
-    document.querySelectorAll('.chip-btn').forEach(btn => {
-      btn.addEventListener('click', (e) => {
-        const title = e.currentTarget.dataset.title;
-        targetTitle.textContent = title;
-        docEl.classList.remove('hidden');
-        certCard.classList.add('hidden');
-      });
-    });
+  /* ---------- shredding: copies of the paper are cut, animated into the machine, then removed ---------- */
+  function cutPaper(spec) {
+    var paper = $('paper'), stage = $('stage'), out = [];
+    if (!paper || !stage || typeof paper.animate !== 'function') return out;
+    var w = paper.offsetWidth, h = paper.offsetHeight, x0 = paper.offsetLeft, y0 = paper.offsetTop, cross = spec.rows > 1;
+    for (var c = 0; c < spec.cols; c++) {
+      for (var r = 0; r < spec.rows; r++) {
+        var p = paper.cloneNode(true);
+        p.removeAttribute('id');
+        Array.prototype.forEach.call(p.querySelectorAll('[id]'), function (n) { n.removeAttribute('id'); });
+        p.className = 'paper piece';
+        p.style.left = x0 + 'px'; p.style.top = y0 + 'px'; p.style.width = w + 'px'; p.style.height = h + 'px';
+        var L = c * 100 / spec.cols, R = 100 - (c + 1) * 100 / spec.cols, T = r * 100 / spec.rows, B = 100 - (r + 1) * 100 / spec.rows;
+        p.style.clipPath = 'inset(' + T + '% ' + R + '% ' + B + '% ' + L + '%)';
+        p.style.transformOrigin = (L + 50 / spec.cols) + '% ' + (T + 50 / spec.rows) + '%';
+        stage.appendChild(p);
+        var dx = (Math.random() - 0.5) * (cross ? 60 : 6), rot = (Math.random() - 0.5) * (cross ? 50 : 3);
+        p.animate([{ transform: 'translate(0px, 0px) rotate(0deg)' }, { transform: 'translate(' + dx.toFixed(1) + 'px, ' + (h + 40) + 'px) rotate(' + rot.toFixed(1) + 'deg)' }],
+          { duration: 1000, delay: cross ? (spec.rows - 1 - r) * 45 + c * 8 : c * 25, easing: 'cubic-bezier(.5,0,.9,.6)', fill: 'forwards' });
+        out.push(p);
+      }
+    }
+    paper.classList.add('gone');
+    return out;
+  }
+  function fillBin(spec, reduce) {
+    var bin = $('bin'); if (!bin) return;
+    bin.textContent = '';
+    var strip = spec.rows === 1, n = strip ? spec.cols : 60;
+    for (var i = 0; i < n; i++) {
+      var b = document.createElement('span');
+      b.className = 'bit' + (reduce ? '' : ' drop');
+      b.style.width = (strip ? 5 : 7) + 'px';
+      b.style.height = (strip ? 34 + Math.round(Math.random() * 14) : 5) + 'px';
+      b.style.left = (strip ? 6 + i * 7.5 : Math.random() * 94).toFixed(1) + '%';
+      b.style.bottom = (strip ? 2 : Math.round(Math.random() * 26)) + 'px';
+      b.style.setProperty('--r', ((Math.random() - 0.5) * (strip ? 16 : 180)).toFixed(1) + 'deg');
+      if (!reduce) b.style.animationDelay = (600 + i * (strip ? 40 : 12)) + 'ms';
+      bin.appendChild(b);
+    }
+  }
+  var actx = null;
+  function shredSound(ms) {
+    try {
+      var AC = window.AudioContext || window.webkitAudioContext; if (!AC) return;
+      if (!actx) actx = new AC();
+      if (actx.state === 'suspended' && actx.resume) actx.resume();
+      var t0 = actx.currentTime, dur = ms / 1000, len = Math.max(1, Math.floor(actx.sampleRate * dur));
+      var buf = actx.createBuffer(1, len, actx.sampleRate), d = buf.getChannelData(0);
+      for (var i = 0; i < len; i++) d[i] = Math.random() * 2 - 1;
+      var noise = actx.createBufferSource(); noise.buffer = buf;
+      var band = actx.createBiquadFilter(); band.type = 'bandpass'; band.frequency.value = 1800; band.Q.value = 0.8;
+      var g1 = actx.createGain(); g1.gain.setValueAtTime(0.0001, t0); g1.gain.exponentialRampToValueAtTime(0.08, t0 + 0.05); g1.gain.exponentialRampToValueAtTime(0.0001, t0 + dur);
+      noise.connect(band); band.connect(g1); g1.connect(actx.destination);
+      var motor = actx.createOscillator(); motor.type = 'sawtooth'; motor.frequency.setValueAtTime(70, t0);
+      var g2 = actx.createGain(); g2.gain.setValueAtTime(0.0001, t0); g2.gain.exponentialRampToValueAtTime(0.04, t0 + 0.05); g2.gain.exponentialRampToValueAtTime(0.0001, t0 + dur);
+      motor.connect(g2); g2.connect(actx.destination);
+      noise.start(t0); noise.stop(t0 + dur); motor.start(t0); motor.stop(t0 + dur);
+    } catch (e) { /* audio is optional */ }
+  }
+  function shred() {
+    if (busy) return;
+    var ta = $('worry'), v = ta ? ta.value : '', t = v.trim();
+    if (!t) { setErr('먼저 무언가를 적어 주세요.'); return; }
+    if (v.length > MAX) { setErr(fmt(MAX) + '자 이하로 줄여 주세요.'); return; }
+    setErr('');
+    busy = true;
+    var cut = cutValue(), spec = CUTS[cut], when = new Date();
+    last = { words: wordCount(v), chars: charCount(t), cut: cut };   /* numbers only, never the text */
+    var rc = $('receipt'); if (rc) rc.hidden = true;
+    var reduce = !!(window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches);
+    var pieces = reduce ? [] : cutPaper(spec);
+    if (ta) { ta.value = ''; ta.readOnly = true; }
+    setText('paper-text', '');
+    renderMeter();
+    fillBin(spec, reduce);
+    if (readSound()) {
+      shredSound(reduce ? 400 : DURATION);
+      if (navigator.vibrate) { try { navigator.vibrate(reduce ? 60 : [60, 40, 60, 40, 120]); } catch (e) { /* not supported */ } }
+    }
+    var finish = function () {
+      pieces.forEach(function (p) { if (p.parentNode) p.parentNode.removeChild(p); });
+      var paper = $('paper'); if (paper) paper.classList.remove('gone');
+      if (ta) ta.readOnly = false;
+      busy = false;
+      var saved = bumpTally();
+      setText('r-size', '파쇄한 글: ' + fmt(last.words) + '단어 · ' + fmt(last.chars) + '자');
+      setText('r-cut', '방식: ' + spec.label);
+      setText('r-time', '시각: ' + whenLabel(when));
+      if (rc) rc.hidden = false;
+      renderTally(saved ? '' : '횟수를 저장하지 못했습니다. 브라우저가 저장을 막고 있을 수 있습니다.');
+      renderMeter();
+      var again = $('btn-again'); if (again) again.focus();
+    };
+    if (pieces.length) setTimeout(finish, DURATION); else finish();
+  }
 
-    shredBtn.addEventListener('click', () => {
-      shredBtn.classList.add('opacity-50', 'pointer-events-none');
-      shredText.textContent = '파쇄 및 소각 진행 중 (15s)...';
-      docEl.classList.add('scale-y-0', 'opacity-0');
-      shredAnim.classList.remove('hidden');
-      playShredSound();
+  /* ---------- toast · copy · share (standard: Web Share -> clipboard -> honest message on failure) ---------- */
+  var toastTimer = null, resetArm = 0, resetT = null;
+  function showToastNotification(m) {
+    var el = $('global-ux-toast'); if (!el) return;
+    el.textContent = m; el.classList.add('show');
+    clearTimeout(toastTimer); toastTimer = setTimeout(function () { el.classList.remove('show'); }, 2200);
+  }
+  function fallbackCopy(text) {
+    var ta = document.createElement('textarea'); ta.value = text; ta.setAttribute('readonly', '');
+    ta.style.position = 'fixed'; ta.style.opacity = '0'; document.body.appendChild(ta); ta.select();
+    var ok = false; try { ok = document.execCommand('copy'); } catch (e) { ok = false; }
+    document.body.removeChild(ta);
+    showToastNotification(ok ? '복사했습니다. 원하는 곳에 붙여 넣으세요.' : '복사하지 못했습니다. 글을 직접 선택해 복사해 주세요.');
+  }
+  function copyText(text) {
+    if (navigator.clipboard && window.isSecureContext) {
+      navigator.clipboard.writeText(text).then(function () { showToastNotification('복사했습니다. 원하는 곳에 붙여 넣으세요.'); }, function () { fallbackCopy(text); });
+    } else { fallbackCopy(text); }
+  }
+  function link() { return SITE + '/' + (last && last.cut === 'cross' ? '?cut=cross' : ''); }
+  function summary() {
+    if (!last) return '';
+    var spec = CUTS[last.cut];
+    return '🗑️ 방금 화나는 일을 적어 파쇄했습니다: ' + fmt(last.words) + '단어, ' + fmt(spec.cols * spec.rows) + '조각. 저장된 것은 없습니다.\n👉 ' + TOOL_NAME + ': ' + link();
+  }
 
-      if (navigator.vibrate) navigator.vibrate([30, 20, 30, 20, 50]);
+  /* ---------- events ---------- */
+  on('worry', 'input', renderMeter);
+  on('worry', 'keydown', function (e) { if (e.key === 'Enter' && (e.ctrlKey || e.metaKey)) { e.preventDefault(); shred(); } });
+  on('btn-shred', 'click', shred);
+  on('writer', 'change', function (e) {
+    var el = e.target; if (!el) return;
+    if (el.name === 'cut') setText('cut-note', CUTS[cutValue()].note);
+    if (el.id === 'sound') {
+      try { localStorage.setItem(SOUND, el.checked ? '1' : '0'); } catch (x) { showToastNotification('이 설정을 저장하지 못했습니다. 브라우저가 저장을 막고 있을 수 있습니다.'); }
+    }
+  });
+  on('btn-again', 'click', function () { var rc = $('receipt'); if (rc) rc.hidden = true; var ta = $('worry'); if (ta) ta.focus(); });
+  on('btn-copy', 'click', function () { if (last) copyText(summary()); });
+  on('btn-share', 'click', function () {
+    if (!last) return;
+    var text = summary();
+    if (navigator.share) { navigator.share({ title: TOOL_NAME, text: text, url: link() }).catch(function (e) { if (!e || e.name !== 'AbortError') copyText(text); }); }
+    else { copyText(text); }
+  });
+  on('btn-reset', 'click', function () {
+    var b = $('btn-reset');
+    if (Date.now() > resetArm) {
+      resetArm = Date.now() + 5000; b.textContent = '한 번 더 누르면 초기화';
+      clearTimeout(resetT); resetT = setTimeout(function () { resetArm = 0; b.textContent = '횟수 초기화'; }, 5000);
+      return;
+    }
+    resetArm = 0; clearTimeout(resetT); b.textContent = '횟수 초기화';
+    try { localStorage.removeItem(TALLY); } catch (e) { /* storage unavailable */ }
+    renderTally(); showToastNotification('횟수를 초기화했습니다.');
+  });
 
-      // 15 seconds dwell time lock-in
-      setTimeout(() => {
-        shredAnim.classList.add('hidden');
-        cTitle.textContent = targetTitle.textContent;
-        certCard.classList.remove('hidden');
-        shredText.textContent = '소각 완료';
-        shredBtn.classList.remove('opacity-50', 'pointer-events-none');
-        if (navigator.vibrate) navigator.vibrate([100, 50, 100]);
-      }, 15000);
-    });
-
-    document.getElementById('reset-btn').addEventListener('click', () => {
-      docEl.classList.remove('scale-y-0', 'opacity-0');
-      certCard.classList.add('hidden');
-      shredText.textContent = '파쇄기에 넣고 갈아버리기';
-    });
-
-    document.getElementById('copy-btn').addEventListener('click', () => {
-      const doc = cTitle.textContent;
-      const url = window.location.href;
-      const text = `방금 [${doc}] 4.8kg 파쇄기에 넣고 가루로 만들었습니다.\n세상아 덤벼라, 내 스트레스는 기화되었다.\n👉 디지털 감정 소각장: ${url}`;
-      if (navigator.clipboard) navigator.clipboard.writeText(text);
-      const toast = document.getElementById('toast');
-      toast.style.opacity = '1';
-      setTimeout(() => { toast.style.opacity = '0'; }, 2200);
-    });
-  </script>
+  /* ---------- start: ?cut=cross picks the cross-cut style; old text is never restored ---------- */
+  (function init() {
+    var q; try { q = new URLSearchParams(location.search); } catch (e) { q = null; }
+    if (q && q.get('cut') === 'cross') { var r = document.querySelector('input[name="cut"][value="cross"]'); if (r) r.checked = true; }
+    setText('cut-note', CUTS[cutValue()].note);
+    var s = $('sound'); if (s) s.checked = readSound();
+    var ta = $('worry'); if (ta) ta.value = '';
+    renderMeter(); renderTally();
+  })();
+})();
+</script>
+<!-- LOGIC END -->
 </body>
 </html>
